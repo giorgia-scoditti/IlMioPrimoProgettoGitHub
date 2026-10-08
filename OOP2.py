@@ -16,8 +16,8 @@ print(q)
 # Una volta definito un nuovo tipo di dato (il Quadro), posso creare delle collezioni di oggetti di quel tipo, ad es. una lista.
 lista_di_quadri = []
 lista_di_quadri.append(q)
-lista_di_quadri.append(Quadro("Cezanne", "...", "..."))
-lista_di_quadri.append(Quadro("Pollock", "...", "..."))
+lista_di_quadri.append(Quadro("Cezanne", "...", "...", "..."))
+lista_di_quadri.append(Quadro("Pollock", "...", "...", "..."))
 
 print("Lista di quadri: ")
 for quadro in lista_di_quadri:
