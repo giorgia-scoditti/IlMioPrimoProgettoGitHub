@@ -7,7 +7,7 @@ class Studente:
         self.nome = nome
         self.cognome = cognome
         self.data_nascita = data_nascita
-        # Ma come rappresento quelle che nelle basi di dat sono le relazioni?
+        # Ma come rappresento quelle che nelle basi di dati sono le relazioni?
         # Di seguito, un esempio.
         self.iscritto_a = None # Qui dentro ci finirà il riferimento ad un corso.
 
@@ -100,7 +100,7 @@ p1 = Persona("Michela", "Blu")
 class Docente(Persona):
     def __init__(self, nome, cognome, dipartimento):
         # NON DEVO RIPETERE GLI ATTRIBUTI DELLA CLASSE PADRE!
-        # DI SEGUITO, TROVI L'ISTRUZIONE CHE COSTRUISCE LA PARTE PERSONA DEL DOCENTE.
+        # DI SEGUITO, TROVO L'ISTRUZIONE CHE COSTRUISCE LA PARTE PERSONA DEL DOCENTE.
         super().__init__(nome, cognome)
         # SOLO ORA POSSO INIZIALIZZARE GLI ATTRIBUTI SPECIFICI DEL DOCENTE.
         self.dipartimento = dipartimento
