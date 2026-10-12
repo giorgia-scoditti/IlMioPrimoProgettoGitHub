@@ -1,7 +1,6 @@
 """
 LEZIONE DEL 08/10/2026 - WEEK 03
 """
-# CONTROLLA SE E' GIUSTO!
 class Studente:
     def __init__(self, matricola, nome, cognome, data_nascita):
         self.matricola = matricola
