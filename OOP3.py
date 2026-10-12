@@ -9,13 +9,13 @@ class Studente:
         self.cognome = cognome
         self.data_nascita = data_nascita
 
-    @property
-    def matricola(self):
-        return self.matricola
+        @property
+        def matricola(self):
+            return self.matricola
 
-    @matricola.setter
-    def matricola(self, matricola):
-        self.matricola = matricola
+        @matricola.setter
+        def matricola(self, matricola):
+            self.matricola = matricola
 
     def __str__(self):
         return f"{self.matricola}, {self.nome}, {self.cognome}, {self.data_nascita}"
@@ -39,6 +39,7 @@ class Corso:
         self.codice = codice
         self.titolo = titolo
         self.docente = docente
+        self.lista_studenti = []
 
     def __str__(self):
         return f"{self.codice}, {self.titolo}, {self.docente}"
@@ -52,7 +53,7 @@ def main():
     print(s2)
 
     lista_studenti = [s1]
-    lista_studenti.append[s2]
+    lista_studenti.append(s2)
 
     c001 = Corso("001", "Programmazione Avanzata", "Lamberti")
 
