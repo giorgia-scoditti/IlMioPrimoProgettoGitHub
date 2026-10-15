@@ -3,7 +3,6 @@ LEZIONE DEL 15/10/2026 - WEEK 04
 """
 import operator
 
-
 # Tutto il concetto dell'ereditarietà comincia dalla classe generica Object.
 # La classe Object definisce dei metodi che altri possono andare a predefinire.
 class LaMiaClasse:
@@ -62,7 +61,6 @@ print(o1.__repr__())
 
 # Di seguito, l'ordinamento secondo un certo valore.
 print("---------------")
-import operator
 lista = [o1]
 lista.append(o2)
 lista.append(LaMiaClasse("Gastone"))
