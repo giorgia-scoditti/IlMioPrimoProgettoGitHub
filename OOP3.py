@@ -170,10 +170,23 @@ users = []
 users.append(e1)
 users.append(m)
 # Di seguito, il fenomeno del DUCK TYPING.
-# Si ha un contenitore in cui si possono inserire diversi tipi di elementi.
+# Si ha un contenitore di dati in cui si possono inserire diversi tipi di elementi/oggetti.
 users.append("abcdefg")
 users.append(35)
 users.append(c1)
 
 for user in users:
     print(str(user))
+print()
+
+if isinstance(e1, Employee) is True:
+    print("e1 è un employee")
+else:
+    print("e1 non è un employee")
+
+# L'ereditarietà può anche essere multipla.
+# Tutto comincia dalla classe generica Object.
+class MegaManager(Manager):
+    def __init__(self, name, wage, managedUnit, megaAttr):
+        super().__init__(name, wage, managedUnit)
+        self.__megaAttr = megaAttr
