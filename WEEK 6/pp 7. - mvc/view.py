@@ -1,3 +1,6 @@
+"""
+LEZIONE DEL 26/10/2026 - WEEK 06
+"""
 import flet as ft
 
 class View():

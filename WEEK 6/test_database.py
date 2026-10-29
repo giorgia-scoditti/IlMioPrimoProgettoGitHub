@@ -1,3 +1,6 @@
+"""
+LEZIONE DEL 26/10/2026 - WEEK 06
+"""
 import mysql.connector
 from mysql.connector import errorcode
 
@@ -54,4 +57,4 @@ def main():
     else:
         conn.close()
 
-    main()
+main()
